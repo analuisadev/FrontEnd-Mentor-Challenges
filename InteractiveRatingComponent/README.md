@@ -32,9 +32,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O Interactive rating component é um componente interativo para recebimento de Feedbacks.
 
-- [Acesse o projeto finalizado, online](#)
-
-
 ## :memo: Licença
 
 Esse projeto está sob a licença MIT.

@@ -31,8 +31,8 @@ Esse repositório será desenvolvido com as seguintes tecnologias.
 
 O FrontEnd Mentor Challenge é um repositório na qual será armazenado soluções de diversos desafios dentro do site [FrontEnd Mentor](https://www.frontendmentor.io/challenges) afim de trazer uma forma simples e rápida para visualização das resoluções de exercícios de códigos que vão desde o iniciante ao Júnior. Valendo salientar que a resolução destes desafios serão feitos de acordo com a evolução dos meus conhecimentos e habilidades em programação, podendo alguns deles serem feitos através de framework!
 
-- [Acesse o projeto finalizado, online]()
-
+- QR Code Component [Acesse o projeto finalizado, online](https://front-end-mentor-challenges-ddq5.vercel.app/)
+- Interactive Rating Component [Acesse o projeto finalizado, online](https://front-end-mentor-challenges-seven.vercel.app/)
 ---
 ## :memo: Licença
 

@@ -1,0 +1,130 @@
+@import url(reset.css);
+@import url(font.css);
+
+:root {
+    --Orange: hsl(25, 97%, 53%);
+    --White: hsl(0, 0%, 100%);
+    --Light-Grey: hsl(217, 12%, 63%);
+    --Dark-Blue: hsl(213, 19%, 18%);
+    --Medium-Grey: hsla(216, 12%, 54%, 0.205);
+    --Very-Dark-Blue: hsl(216, 12%, 8%);
+    font-size: 62.5%;
+}
+
+body * {
+    font-family: 'Overpass', sans-serif;
+}
+
+body {
+    background: var(--Very-Dark-Blue);
+    color: var(--White);
+    display: grid;
+    justify-self: center;
+    align-self: center;
+    height: 100vh;
+}
+
+#app {
+    width: 30rem;
+    height: 30rem;
+    margin: auto;
+    background: var(--Dark-Blue);
+    border-radius: 2rem;
+    padding: 3rem;
+}
+
+.content {
+    gap: 1.2rem;
+    display: grid;
+}
+
+.star {
+    background-color: var(--Medium-Grey);
+    border-radius: 50%;
+    padding: .8rem;
+    margin-bottom: 1rem;
+}
+
+.content p, .thanks p {
+    color: var(--Light-Grey);
+    line-height: 1.6rem;
+}
+
+.rating_numbers {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating_numbers, 
+.circle {
+    font-weight: 700;
+}
+
+button,
+.circle {
+    cursor: pointer;
+}
+
+.circle {
+    background-color: var(--Medium-Grey);
+    border-radius: 50%;
+    padding: 1.2rem 1.6rem;
+}
+
+.circle:hover {
+    background: var(--Light-Grey);
+    transition: .2s;
+}
+
+.circle:active,
+.selected,
+button {
+    background-color: var(--Orange);
+    color: var(--White);
+}
+
+input[type="radio"]{
+    display: none;
+}
+
+button {
+    border: none;
+    border-radius: 2rem;
+    padding: .7rem;
+    width: 100%;
+    letter-spacing: .2rem;
+    font-size: 1.2rem;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+button:hover{
+    background-color: var(--White);
+    color: var(--Orange);
+    transition: .5s;
+}
+
+button:not(:hover) {
+    background: var(--Orange);
+}
+
+.thanks {
+    display: none;
+    text-align: center;
+    gap: 1.2rem;
+}
+
+.thanks > img {
+    display: grid;
+    justify-self: center;
+    margin-bottom: 1rem;
+}
+
+.result {
+    background: var(--Medium-Grey);
+    color: var(--Orange);
+    width: 12rem;
+    display: inline-block;
+    justify-self: center;
+    padding: .3rem;
+    border-radius: 2rem;
+}
